@@ -52,7 +52,7 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074536976</Property>
 	</Item>
 	<Item Name="Generate Overlap SQL Query.vi" Type="VI" URL="../Generate Overlap SQL Query.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%W!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"J!-0````]15U6-25.5)&amp;.24#"2&gt;76S?1!!0E"Q!"Y!!"A71G&amp;O;WFO:S"3:7.P=G1O&lt;(:D&lt;'&amp;T=Q!!'U:J=H.U)%FN='^S&gt;'FO:S"5=G&amp;O=W&amp;D&gt;'FP&lt;A!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#&amp;!!Q!&lt;37VQ&lt;X*U;7ZH)&amp;2S97ZT97.U;7^O)%.P&gt;7ZU!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!#!!'!Q!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!A!!!#3!!!!!!%!#1!!!!!</Property>
