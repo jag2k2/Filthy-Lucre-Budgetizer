@@ -27,6 +27,7 @@
 		<Item Name="EZ Message.lvlib" Type="Library" URL="../support/EZ Msg/EZ Message.lvlib"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="runtime menu.rtm" Type="Document" URL="../support/runtime menu.rtm"/>
+		<Item Name="Format Date to SQL String.vi" Type="VI" URL="../support/Format Date to SQL String.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
