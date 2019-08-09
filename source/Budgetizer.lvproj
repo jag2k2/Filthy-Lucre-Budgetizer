@@ -19,15 +19,14 @@
 		</Item>
 		<Item Name="Database.lvclass" Type="LVClass" URL="../support/classes/database/Database.lvclass"/>
 		<Item Name="Transaction.lvclass" Type="LVClass" URL="../support/classes/Transaction/Transaction.lvclass"/>
+		<Item Name="Banking Transaction.lvclass" Type="LVClass" URL="../support/classes/Banking Record/Banking Transaction.lvclass"/>
+		<Item Name="Credit Transaction.lvclass" Type="LVClass" URL="../support/classes/Credit Record/Credit Transaction.lvclass"/>
 		<Item Name="Statement.lvclass" Type="LVClass" URL="../support/classes/Statement/Statement.lvclass"/>
-		<Item Name="Banking Record.lvclass" Type="LVClass" URL="../support/classes/Banking Record/Banking Record.lvclass"/>
 		<Item Name="Banking Statement.lvclass" Type="LVClass" URL="../support/classes/Banking Statement/Banking Statement.lvclass"/>
-		<Item Name="Credit Record.lvclass" Type="LVClass" URL="../support/classes/Credit Record/Credit Record.lvclass"/>
 		<Item Name="Credit Statement.lvclass" Type="LVClass" URL="../support/classes/Credit Statement/Credit Statement.lvclass"/>
 		<Item Name="EZ Message.lvlib" Type="Library" URL="../support/EZ Msg/EZ Message.lvlib"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="runtime menu.rtm" Type="Document" URL="../support/runtime menu.rtm"/>
-		<Item Name="Format Date to SQL String.vi" Type="VI" URL="../support/Format Date to SQL String.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -73,6 +72,7 @@
 			</Item>
 			<Item Name="Compare to the Cent.vi" Type="VI" URL="../support/Compare to the Cent.vi"/>
 			<Item Name="Import Transactions from File.vi" Type="VI" URL="../support/Import Transactions from File.vi"/>
+			<Item Name="Format Date to SQL String.vi" Type="VI" URL="../support/Format Date to SQL String.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

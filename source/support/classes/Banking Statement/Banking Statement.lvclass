@@ -27,6 +27,15 @@
 	<Item Name="Banking Statement.ctl" Type="Class Private Data" URL="Banking Statement.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Check.vi" Type="VI" URL="../Check.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%R!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!&lt;'5*B&lt;GNJ&lt;G=A5X2B&gt;'6N:7ZU,GRW9WRB=X-!&amp;5*B&lt;GNJ&lt;G=A5X2B&gt;'6N:7ZU)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$J!=!!?!!!&lt;'5*B&lt;GNJ&lt;G=A5X2B&gt;'6N:7ZU,GRW9WRB=X-!&amp;%*B&lt;GNJ&lt;G=A5X2B&gt;'6N:7ZU)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!A!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+	</Item>
 	<Item Name="Create from CSV.vi" Type="VI" URL="../Create from CSV.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%8!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!&lt;'5*B&lt;GNJ&lt;G=A5X2B&gt;'6N:7ZU,GRW9WRB=X-!&amp;5*B&lt;GNJ&lt;G=A5X2B&gt;'6N:7ZU)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!A!-0````]!'%"!!!(`````!!=,1V.7)%6O&gt;(*J:8-!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!A$!!"Y!!!.#!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!1I!!!!!!1!*!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -37,9 +46,36 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1107821074</Property>
 	</Item>
 	<Item Name="Generate INSERT SQL Query.vi" Type="VI" URL="../Generate INSERT SQL Query.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;3!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%5!$!!N/&gt;7UA=G6D&lt;X*E=Q!%!!!!&amp;E!Q`````QR*4F.&amp;5F1A586F=HE!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-E"Q!"Y!!"-25X2B&gt;'6N:7ZU,GRW9WRB=X-!&amp;%^W:8*M98"Q='FO:S"3:7.P=G2T!!!]1(!!(A!!'RF#97ZL;7ZH)&amp;.U982F&lt;76O&gt;#ZM&gt;G.M98.T!":*&lt;8"P=H2J&lt;G=A6(*B&lt;H.B9X2J&lt;WZT!!"5!0!!$!!$!!1!"1!'!!5!"1!&amp;!!5!"Q!&amp;!!A!#1-!!(A!!!U)!!!*!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!)!!!!E!!!!!!"!!I!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;;!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!'5!$!"*/&gt;7UA5G6D=S"U&lt;S"*&lt;H.F=H1!!!1!!!!71$$`````$%F/5U636#"2&gt;76S?1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!S1(!!(A!!%R&amp;4&gt;'&amp;U:7VF&lt;H1O&lt;(:D&lt;'&amp;T=Q!54X:F=GRB=("Q;7ZH)&amp;*F9W^S:(-!!$R!=!!?!!!&lt;'5*B&lt;GNJ&lt;G=A5X2B&gt;'6N:7ZU,GRW9WRB=X-!&amp;EFN='^S&gt;'FO:S"5=G&amp;O=W&amp;D&gt;'FP&lt;H-!!&amp;1!]!!-!!-!"!!&amp;!!9!"1!&amp;!!5!"1!(!!5!#!!*!Q!!?!!!$1A!!!E!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!A!!!#1!!!!!!%!#A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
+	</Item>
+	<Item Name="Generate Month Load SQL Query.vi" Type="VI" URL="../Generate Month Load SQL Query.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;6!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"*!-0````]*5V&amp;-)&amp;&amp;V:8*Z!$J!=!!?!!!&lt;'5*B&lt;GNJ&lt;G=A5X2B&gt;'6N:7ZU,GRW9WRB=X-!&amp;5*B&lt;GNJ&lt;G=A5X2B&gt;'6N:7ZU)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"*!-0````])5V&amp;-)%2B&gt;'5!!$J!=!!?!!!&lt;'5*B&lt;GNJ&lt;G=A5X2B&gt;'6N:7ZU,GRW9WRB=X-!&amp;%*B&lt;GNJ&lt;G=A5X2B&gt;'6N:7ZU)'FO!!"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!A!#1-!!(A!!!U)!!!!!!!!$1I!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!%+!!!!EA!!!!!"!!I!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+	</Item>
+	<Item Name="Generate Overlap SQL Query.vi" Type="VI" URL="../Generate Overlap SQL Query.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%`!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!-0````].4X:F=GRB=#"2&gt;76S?1!Q1(!!(A!!%R&amp;4&gt;'&amp;U:7VF&lt;H1O&lt;(:D&lt;'&amp;T=Q!44X:F=GRB=("J&lt;G=A5G6D&lt;X*E=Q!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$R!=!!?!!!&lt;'5*B&lt;GNJ&lt;G=A5X2B&gt;'6N:7ZU,GRW9WRB=X-!&amp;EFN='^S&gt;'FO:S"5=G&amp;O=W&amp;D&gt;'FP&lt;H-!!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!*!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#1!!!!!!%!#1!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+	</Item>
+	<Item Name="Init with SQL Records.vi" Type="VI" URL="../Init with SQL Records.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;I!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!&lt;'5*B&lt;GNJ&lt;G=A5X2B&gt;'6N:7ZU,GRW9WRB=X-!&amp;5*B&lt;GNJ&lt;G=A5X2B&gt;'6N:7ZU)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"&amp;!!Q!,4H6N)(*F9W^S:(-!#E"4"6:B&lt;(6F!"R!1!!#``````````]!#!N455QA2'&amp;U98.F&gt;!![1(!!(A!!'RF#97ZL;7ZH)&amp;.U982F&lt;76O&gt;#ZM&gt;G.M98.T!"2#97ZL;7ZH)&amp;.U982F&lt;76O&gt;#"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"Q!*!!I$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!)!!!##!!!!*)!!!!!!1!,!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
