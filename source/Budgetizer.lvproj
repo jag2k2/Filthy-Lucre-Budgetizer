@@ -17,6 +17,7 @@
 		<Item Name="Local Error Handlers" Type="Folder" URL="../support/Local Error Handlers">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Budgetizer.lvclass" Type="LVClass" URL="../support/classes/Budgetizer/Budgetizer.lvclass"/>
 		<Item Name="Database.lvclass" Type="LVClass" URL="../support/classes/database/Database.lvclass"/>
 		<Item Name="Transaction.lvclass" Type="LVClass" URL="../support/classes/Transaction/Transaction.lvclass"/>
 		<Item Name="Banking Transaction.lvclass" Type="LVClass" URL="../support/classes/Banking Record/Banking Transaction.lvclass"/>
