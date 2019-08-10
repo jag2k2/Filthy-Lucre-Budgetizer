@@ -17,6 +17,7 @@
 		<Item Name="Local Error Handlers" Type="Folder" URL="../support/Local Error Handlers">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Budgetizer.lvclass" Type="LVClass" URL="../support/classes/Budgetizer/Budgetizer.lvclass"/>
 		<Item Name="Database.lvclass" Type="LVClass" URL="../support/classes/database/Database.lvclass"/>
 		<Item Name="Transaction.lvclass" Type="LVClass" URL="../support/classes/Transaction/Transaction.lvclass"/>
 		<Item Name="Banking Transaction.lvclass" Type="LVClass" URL="../support/classes/Banking Record/Banking Transaction.lvclass"/>
@@ -72,7 +73,6 @@
 			</Item>
 			<Item Name="Compare to the Cent.vi" Type="VI" URL="../support/Compare to the Cent.vi"/>
 			<Item Name="Import Transactions from File.vi" Type="VI" URL="../support/Import Transactions from File.vi"/>
-			<Item Name="Format Date to SQL String.vi" Type="VI" URL="../support/Format Date to SQL String.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
