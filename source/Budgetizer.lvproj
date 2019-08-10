@@ -73,7 +73,6 @@
 			</Item>
 			<Item Name="Compare to the Cent.vi" Type="VI" URL="../support/Compare to the Cent.vi"/>
 			<Item Name="Import Transactions from File.vi" Type="VI" URL="../support/Import Transactions from File.vi"/>
-			<Item Name="Format Date to SQL String.vi" Type="VI" URL="../support/Format Date to SQL String.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
