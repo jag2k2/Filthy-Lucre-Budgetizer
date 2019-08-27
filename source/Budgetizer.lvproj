@@ -67,10 +67,13 @@
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
+				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
+				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 			</Item>
 			<Item Name="Compare to the Cent.vi" Type="VI" URL="../support/Compare to the Cent.vi"/>
 			<Item Name="Import Transactions from File.vi" Type="VI" URL="../support/Import Transactions from File.vi"/>
 			<Item Name="Local Error Handler.vi" Type="VI" URL="../support/Local Error Handler.vi"/>
+			<Item Name="Find Table Cell from Coordinate.vi" Type="VI" URL="../support/Find Table Cell from Coordinate.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
