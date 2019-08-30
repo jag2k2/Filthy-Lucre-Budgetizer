@@ -27,7 +27,7 @@
 		<Item Name="Credit Statement.lvclass" Type="LVClass" URL="../support/classes/Credit Statement/Credit Statement.lvclass"/>
 		<Item Name="Category.lvclass" Type="LVClass" URL="../support/classes/Category/Category.lvclass"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="Category Manager.vi" Type="VI" URL="../support/classes/Budgetizer/Category Manager.vi"/>
+		<Item Name="Category Manager.vi" Type="VI" URL="../Category Manager.vi"/>
 		<Item Name="runtime menu.rtm" Type="Document" URL="../support/runtime menu.rtm"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -78,6 +78,8 @@
 			<Item Name="Import Transactions from File.vi" Type="VI" URL="../support/Import Transactions from File.vi"/>
 			<Item Name="Local Error Handler.vi" Type="VI" URL="../support/Local Error Handler.vi"/>
 			<Item Name="Find Table Cell from Coordinate.vi" Type="VI" URL="../support/Find Table Cell from Coordinate.vi"/>
+			<Item Name="Format SQL Date.vi" Type="VI" URL="../support/subvis/Format SQL Date.vi"/>
+			<Item Name="Construct Category Menu.vi" Type="VI" URL="../support/subvis/Construct Category Menu.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
