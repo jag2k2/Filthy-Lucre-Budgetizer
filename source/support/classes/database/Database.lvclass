@@ -36,7 +36,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
-	<Item Name="Select Category ID by Name.vi" Type="VI" URL="../Select Category ID by Name.vi">
+	<Item Name="Select Category by Name.vi" Type="VI" URL="../Select Category by Name.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;$!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&amp;!!Q!,1W&amp;U:7&gt;P=HEA351!+E"Q!"Y!!")12'&amp;U97*B=W5O&lt;(:D&lt;'&amp;T=Q!!$%2B&gt;'&amp;C98.F)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!71$$`````$5.B&gt;'6H&lt;X*Z)%ZB&lt;75!+%"Q!"Y!!")12'&amp;U97*B=W5O&lt;(:D&lt;'&amp;T=Q!!#U2B&gt;'&amp;C98.F)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!#!!*!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!1I!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
