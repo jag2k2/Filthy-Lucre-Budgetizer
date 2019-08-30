@@ -16,7 +16,6 @@
 		<Item Name="controls" Type="Folder" URL="../controls">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Budgetizer.lvclass" Type="LVClass" URL="../support/classes/Budgetizer/Budgetizer.lvclass"/>
 		<Item Name="Top Level GUI.lvclass" Type="LVClass" URL="../support/classes/Top Level GUI/Top Level GUI.lvclass"/>
 		<Item Name="Database.lvclass" Type="LVClass" URL="../support/classes/database/Database.lvclass"/>
 		<Item Name="Transaction.lvclass" Type="LVClass" URL="../support/classes/Transaction/Transaction.lvclass"/>
