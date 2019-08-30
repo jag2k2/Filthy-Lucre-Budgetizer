@@ -27,7 +27,7 @@
 	<Item Name="Banking Statement.ctl" Type="Class Private Data" URL="Banking Statement.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Check.vi" Type="VI" URL="../Check.vi">
+	<Item Name="Check Continuity.vi" Type="VI" URL="../Check Continuity.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%R!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!&lt;'5*B&lt;GNJ&lt;G=A5X2B&gt;'6N:7ZU,GRW9WRB=X-!&amp;5*B&lt;GNJ&lt;G=A5X2B&gt;'6N:7ZU)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$J!=!!?!!!&lt;'5*B&lt;GNJ&lt;G=A5X2B&gt;'6N:7ZU,GRW9WRB=X-!&amp;%*B&lt;GNJ&lt;G=A5X2B&gt;'6N:7ZU)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
