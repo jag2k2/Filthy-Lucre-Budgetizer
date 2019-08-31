@@ -24,6 +24,7 @@
 		<Item Name="Banking Statement.lvclass" Type="LVClass" URL="../support/classes/Banking Statement/Banking Statement.lvclass"/>
 		<Item Name="Credit Statement.lvclass" Type="LVClass" URL="../support/classes/Credit Statement/Credit Statement.lvclass"/>
 		<Item Name="Category.lvclass" Type="LVClass" URL="../support/classes/Category/Category.lvclass"/>
+		<Item Name="Expense Summary.lvclass" Type="LVClass" URL="../support/classes/Expense Summary/Expense Summary.lvclass"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Category Manager.vi" Type="VI" URL="../Category Manager.vi"/>
 		<Item Name="runtime menu.rtm" Type="Document" URL="../support/runtime menu.rtm"/>
