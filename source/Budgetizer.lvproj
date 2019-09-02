@@ -28,6 +28,7 @@
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Category Manager.vi" Type="VI" URL="../Category Manager.vi"/>
 		<Item Name="Goal Manager.vi" Type="VI" URL="../Goal Manager.vi"/>
+		<Item Name="Goal Editor.vi" Type="VI" URL="../Goal Editor.vi"/>
 		<Item Name="runtime menu.rtm" Type="Document" URL="../support/runtime menu.rtm"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -68,18 +69,18 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
+				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 			</Item>
 			<Item Name="Compare to the Cent.vi" Type="VI" URL="../support/Compare to the Cent.vi"/>
-			<Item Name="Import Transactions from File.vi" Type="VI" URL="../support/Import Transactions from File.vi"/>
 			<Item Name="Local Error Handler.vi" Type="VI" URL="../support/Local Error Handler.vi"/>
+			<Item Name="Format Year-Month to String.vi" Type="VI" URL="../support/subvis/Format Year-Month to String.vi"/>
+			<Item Name="Import Transactions from File.vi" Type="VI" URL="../support/Import Transactions from File.vi"/>
 			<Item Name="Find Table Cell from Coordinate.vi" Type="VI" URL="../support/Find Table Cell from Coordinate.vi"/>
 			<Item Name="Construct Category Menu.vi" Type="VI" URL="../support/subvis/Construct Category Menu.vi"/>
-			<Item Name="Format Year-Month to String.vi" Type="VI" URL="../support/subvis/Format Year-Month to String.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
