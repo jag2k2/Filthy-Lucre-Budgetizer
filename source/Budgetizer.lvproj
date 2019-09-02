@@ -78,8 +78,8 @@
 			<Item Name="Import Transactions from File.vi" Type="VI" URL="../support/Import Transactions from File.vi"/>
 			<Item Name="Local Error Handler.vi" Type="VI" URL="../support/Local Error Handler.vi"/>
 			<Item Name="Find Table Cell from Coordinate.vi" Type="VI" URL="../support/Find Table Cell from Coordinate.vi"/>
-			<Item Name="Format SQL Date.vi" Type="VI" URL="../support/subvis/Format SQL Date.vi"/>
 			<Item Name="Construct Category Menu.vi" Type="VI" URL="../support/subvis/Construct Category Menu.vi"/>
+			<Item Name="Format Year-Month to String.vi" Type="VI" URL="../support/subvis/Format Year-Month to String.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
