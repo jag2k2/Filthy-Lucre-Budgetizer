@@ -170,6 +170,15 @@
 		</Item>
 	</Item>
 	<Item Name="Goal Management" Type="Folder">
+		<Item Name="Delete Goal.vi" Type="VI" URL="../Delete Goal.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%M!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%2B&gt;'&amp;C98.F,GRW9WRB=X-!!!R%982B9G&amp;T:3"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%%!Q`````Q&gt;(&lt;W&amp;M)%F%!#B!=!!?!!!3%%2B&gt;'&amp;C98.F,GRW9WRB=X-!!!N%982B9G&amp;T:3"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!))!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821074</Property>
+		</Item>
 		<Item Name="Add Goal.vi" Type="VI" URL="../Add Goal.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;/!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%2B&gt;'&amp;C98.F,GRW9WRB=X-!!!R%982B9G&amp;T:3"P&gt;81!!""!-0````](776B=CV.&lt;Q!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"&amp;!#A!,2W^B&lt;#""&lt;7^V&lt;H1!%5!$!!N$982F:W^S?6^J:!!I1(!!(A!!%B"%982B9G&amp;T:3ZM&gt;G.M98.T!!!,2'&amp;U97*B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!'!!=!#!!*!!I$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!##!!!!!I!!!!)!!!!#!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
