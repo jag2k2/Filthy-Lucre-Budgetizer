@@ -16,6 +16,9 @@
 		<Item Name="controls" Type="Folder" URL="../controls">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="GUIs" Type="Folder" URL="../GUIs">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Database.lvclass" Type="LVClass" URL="../support/classes/database/Database.lvclass"/>
 		<Item Name="Transaction.lvclass" Type="LVClass" URL="../support/classes/Transaction/Transaction.lvclass"/>
 		<Item Name="Banking Transaction.lvclass" Type="LVClass" URL="../support/classes/Banking Record/Banking Transaction.lvclass"/>
@@ -26,9 +29,6 @@
 		<Item Name="Category.lvclass" Type="LVClass" URL="../support/classes/Category/Category.lvclass"/>
 		<Item Name="Expense Summary.lvclass" Type="LVClass" URL="../support/classes/Expense Summary/Expense Summary.lvclass"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="Category Manager.vi" Type="VI" URL="../Category Manager.vi"/>
-		<Item Name="Goal Manager.vi" Type="VI" URL="../Goal Manager.vi"/>
-		<Item Name="Goal Editor.vi" Type="VI" URL="../Goal Editor.vi"/>
 		<Item Name="runtime menu.rtm" Type="Document" URL="../support/runtime menu.rtm"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
