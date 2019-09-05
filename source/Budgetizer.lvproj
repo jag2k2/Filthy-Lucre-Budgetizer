@@ -30,7 +30,7 @@
 		<Item Name="Expense Summary.lvclass" Type="LVClass" URL="../support/classes/Expense Summary/Expense Summary.lvclass"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="runtime menu.rtm" Type="Document" URL="../support/runtime menu.rtm"/>
-		<Item Name="Decrement Date.vi" Type="VI" URL="../support/subvis/Decrement Date.vi"/>
+		<Item Name="Budgetizer.ico" Type="Document" URL="../Budgetizer.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -81,7 +81,50 @@
 			<Item Name="Import Transactions from File.vi" Type="VI" URL="../support/subvis/Import Transactions from File.vi"/>
 			<Item Name="Find Table Cell from Coordinate.vi" Type="VI" URL="../support/subvis/Find Table Cell from Coordinate.vi"/>
 			<Item Name="Construct Category Menu.vi" Type="VI" URL="../support/subvis/Construct Category Menu.vi"/>
+			<Item Name="Decrement Date.vi" Type="VI" URL="../support/subvis/Decrement Date.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Budgetizer" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{3B04F14E-51FE-4BAE-98AF-3EF5129842AB}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{EAB94193-2DD0-4F4F-A0AB-BC5AF291C7F0}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{74C0B0DD-426E-4ED0-B148-CB38B68C0669}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Budgetizer</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{B232AD3E-98B1-4827-9A3D-5B12C4E86468}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Budgetizer.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Budgetizer.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Budgetizer.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{63A56197-F74E-438D-A3A8-E04EE18A656B}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Budgetizer</Property>
+				<Property Name="TgtF_internalName" Type="Str">Budgetizer</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 National Instruments</Property>
+				<Property Name="TgtF_productName" Type="Str">Budgetizer</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{BC7D3B09-0F36-4664-A9E6-BCEEACD5E97F}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Budgetizer.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
