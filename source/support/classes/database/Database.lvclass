@@ -199,6 +199,15 @@
 		</Item>
 	</Item>
 	<Item Name="Goal Management" Type="Folder">
+		<Item Name="Import Goals From Previous Month.vi" Type="VI" URL="../Import Goals From Previous Month.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!("!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%2B&gt;'&amp;C98.F,GRW9WRB=X-!!!R%982B9G&amp;T:3"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!EA$R!!!!!!!!!!)12'&amp;U97*B=W5O&lt;(:D&lt;'&amp;T=QF.&lt;WZU;#ZD&gt;'Q!&lt;U!7!!Q(3G&amp;O&gt;7&amp;S?1B':7*S&gt;7&amp;S?16.98*D;!6"=(*J&lt;!..98E%3H6O:12+&gt;7RZ"E&amp;V:X6T&gt;!F4:8"U:7VC:8)(4W.U&lt;W*F=AB/&lt;X:F&lt;7*F=AB%:7.F&lt;7*F=A!.1X6S=G6O&gt;#".&lt;WZU;!!41!-!$%.V=H*F&lt;H1A76F:71!!+%"Q!"Y!!")12'&amp;U97*B=W5O&lt;(:D&lt;'&amp;T=Q!!#U2B&gt;'&amp;C98.F)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!=!#!!*!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!#A!!!!I!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710290</Property>
+		</Item>
 		<Item Name="Delete Goal.vi" Type="VI" URL="../Delete Goal.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;1!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%2B&gt;'&amp;C98.F,GRW9WRB=X-!!!R%982B9G&amp;T:3"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!.%"Q!"Y!!"E828BQ:7ZT:3"4&gt;7VN98*Z,GRW9WRB=X-!%%.B&gt;'6H&lt;X*Z)&amp;.V&lt;7VB=HE!!#B!=!!?!!!3%%2B&gt;'&amp;C98.F,GRW9WRB=X-!!!N%982B9G&amp;T:3"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!)!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
