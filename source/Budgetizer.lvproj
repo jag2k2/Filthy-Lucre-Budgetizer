@@ -19,7 +19,7 @@
 		<Item Name="GUIs" Type="Folder" URL="../GUIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Database.lvclass" Type="LVClass" URL="../support/classes/database/Database.lvclass"/>
+		<Item Name="Account History.lvclass" Type="LVClass" URL="../support/classes/database/Account History.lvclass"/>
 		<Item Name="Transaction.lvclass" Type="LVClass" URL="../support/classes/Transaction/Transaction.lvclass"/>
 		<Item Name="Banking Transaction.lvclass" Type="LVClass" URL="../support/classes/Banking Record/Banking Transaction.lvclass"/>
 		<Item Name="Credit Transaction.lvclass" Type="LVClass" URL="../support/classes/Credit Record/Credit Transaction.lvclass"/>
