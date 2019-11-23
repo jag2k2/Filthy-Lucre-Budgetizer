@@ -82,6 +82,7 @@
 			<Item Name="Find Table Cell from Coordinate.vi" Type="VI" URL="../support/subvis/Find Table Cell from Coordinate.vi"/>
 			<Item Name="Construct Category Menu.vi" Type="VI" URL="../support/subvis/Construct Category Menu.vi"/>
 			<Item Name="Decrement Date.vi" Type="VI" URL="../support/subvis/Decrement Date.vi"/>
+			<Item Name="CONST_DST.vi" Type="VI" URL="../support/subvis/CONST_DST.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Budgetizer" Type="EXE">
@@ -99,7 +100,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B232AD3E-98B1-4827-9A3D-5B12C4E86468}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Budgetizer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Budgetizer.exe</Property>
