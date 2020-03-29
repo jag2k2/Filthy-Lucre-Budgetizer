@@ -31,6 +31,7 @@
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="runtime menu.rtm" Type="Document" URL="../support/runtime menu.rtm"/>
 		<Item Name="Budgetizer.ico" Type="Document" URL="../Budgetizer.ico"/>
+		<Item Name="Highlight Rows By Category.vi" Type="VI" URL="../support/subvis/Highlight Rows By Category.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -75,6 +76,7 @@
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
+				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 			</Item>
 			<Item Name="Compare to the Cent.vi" Type="VI" URL="../support/subvis/Compare to the Cent.vi"/>
 			<Item Name="Local Error Handler.vi" Type="VI" URL="../support/subvis/Local Error Handler.vi"/>
