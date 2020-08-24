@@ -26,7 +26,7 @@
 	<Item Name="TransactionList.ctl" Type="Class Private Data" URL="TransactionList.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="AddTransaction.vi" Type="VI" URL="../AddTransaction.vi">
+	<Item Name="addTransaction.vi" Type="VI" URL="../addTransaction.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;I!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!:&amp;V2S97ZT97.U;7^O4'FT&gt;#ZM&gt;G.M98.T!".5=G&amp;O=W&amp;D&gt;'FP&lt;ERJ=X1A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-E"Q!"Y!!"546(*B&lt;H.B9X2J&lt;WYO&lt;(:D&lt;'&amp;T=Q!46(*B&lt;H.B9X2J&lt;WYO&lt;(:D&lt;'&amp;T=Q!W1(!!(A!!'2&gt;5=G&amp;O=W&amp;D&gt;'FP&lt;ERJ=X1O&lt;(:D&lt;'&amp;T=Q!36(*B&lt;H.B9X2J&lt;WZ-;8.U)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!)!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -35,7 +35,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 	</Item>
-	<Item Name="Format Into Table.vi" Type="VI" URL="../Format Into Table.vi">
+	<Item Name="formatIntoTable.vi" Type="VI" URL="../formatIntoTable.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;E!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"2!-0````],2'6T9X*J=(2J&lt;WY!'E"!!!,``````````Q!&amp;#62B9GRF)&amp;*P&gt;Q!W1(!!(A!!'2&gt;5=G&amp;O=W&amp;D&gt;'FP&lt;ERJ=X1O&lt;(:D&lt;'&amp;T=Q!46(*B&lt;H.B9X2J&lt;WZ-;8.U)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$:!=!!?!!!:&amp;V2S97ZT97.U;7^O4'FT&gt;#ZM&gt;G.M98.T!"*5=G&amp;O=W&amp;D&gt;'FP&lt;ERJ=X1A;7Y!!'%!]!!-!!-!"!!'!!=!"!!%!!1!"!!)!!1!"!!*!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
