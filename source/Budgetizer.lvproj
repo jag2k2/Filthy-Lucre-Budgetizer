@@ -19,6 +19,9 @@
 		<Item Name="GUIs" Type="Folder" URL="../GUIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Test" Type="Folder" URL="../Test">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Account History.lvclass" Type="LVClass" URL="../support/classes/database/Account History.lvclass"/>
 		<Item Name="Transaction.lvclass" Type="LVClass" URL="../support/classes/Transaction/Transaction.lvclass"/>
 		<Item Name="Banking Transaction.lvclass" Type="LVClass" URL="../support/classes/Banking Record/Banking Transaction.lvclass"/>
@@ -28,6 +31,7 @@
 		<Item Name="Credit Transactions.lvclass" Type="LVClass" URL="../support/classes/Credit Statement/Credit Transactions.lvclass"/>
 		<Item Name="Category.lvclass" Type="LVClass" URL="../support/classes/Category/Category.lvclass"/>
 		<Item Name="Expense Summary.lvclass" Type="LVClass" URL="../support/classes/Expense Summary/Expense Summary.lvclass"/>
+		<Item Name="Goal.lvclass" Type="LVClass" URL="../support/classes/Goal/Goal.lvclass"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="runtime menu.rtm" Type="Document" URL="../support/runtime menu.rtm"/>
 		<Item Name="Budgetizer.ico" Type="Document" URL="../Budgetizer.ico"/>
