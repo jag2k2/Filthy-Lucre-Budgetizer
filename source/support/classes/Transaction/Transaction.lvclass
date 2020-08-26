@@ -54,15 +54,6 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
-	<Item Name="Compare.vi" Type="VI" URL="../Compare.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#+!!!!"!!-1#%'28&amp;V97Q`!!!M1(!!(A!!&amp;2.5=G&amp;O=W&amp;D&gt;'FP&lt;CZM&gt;G.M98.T!!V5=G&amp;O=W&amp;D&gt;'FP&lt;C"Z!#R!=!!?!!!6%V2S97ZT97.U;7^O,GRW9WRB=X-!$62S97ZT97.U;7^O)(A!(A$Q!!-!!!!"!!)#!!!1!!!*!!!!#!!!!"!!!!!!!1!$!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
-	</Item>
 	<Item Name="Format Date to SQL.vi" Type="VI" URL="../Format Date to SQL.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!_!!!!!Q!31$$`````#&amp;.24#"%982F!!!-1&amp;1!"A2%982F!!!9!0!!!A!!!!%#!!!)!!!*!!!!#!!!!!!"!!)!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
