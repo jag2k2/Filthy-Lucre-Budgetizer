@@ -22,6 +22,9 @@
 		<Item Name="Test" Type="Folder" URL="../Test">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="subvis" Type="Folder" URL="../support/subvis">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Account History.lvclass" Type="LVClass" URL="../support/classes/database/Account History.lvclass"/>
 		<Item Name="Transaction.lvclass" Type="LVClass" URL="../support/classes/Transaction/Transaction.lvclass"/>
 		<Item Name="Banking Transaction.lvclass" Type="LVClass" URL="../support/classes/Banking Record/Banking Transaction.lvclass"/>
@@ -35,7 +38,6 @@
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="runtime menu.rtm" Type="Document" URL="../support/runtime menu.rtm"/>
 		<Item Name="Budgetizer.ico" Type="Document" URL="../Budgetizer.ico"/>
-		<Item Name="Highlight Rows By Category.vi" Type="VI" URL="../support/subvis/Highlight Rows By Category.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -82,13 +84,6 @@
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 			</Item>
-			<Item Name="Compare to the Cent.vi" Type="VI" URL="../support/subvis/Compare to the Cent.vi"/>
-			<Item Name="Local Error Handler.vi" Type="VI" URL="../support/subvis/Local Error Handler.vi"/>
-			<Item Name="Import Transactions from File.vi" Type="VI" URL="../support/subvis/Import Transactions from File.vi"/>
-			<Item Name="Find Table Cell from Coordinate.vi" Type="VI" URL="../support/subvis/Find Table Cell from Coordinate.vi"/>
-			<Item Name="Construct Category Menu.vi" Type="VI" URL="../support/subvis/Construct Category Menu.vi"/>
-			<Item Name="Decrement Date.vi" Type="VI" URL="../support/subvis/Decrement Date.vi"/>
-			<Item Name="CONST_DST.vi" Type="VI" URL="../support/subvis/CONST_DST.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Budgetizer" Type="EXE">
