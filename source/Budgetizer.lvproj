@@ -33,6 +33,7 @@
 		<Item Name="Banking Transactions.lvclass" Type="LVClass" URL="../support/classes/Banking Statement/Banking Transactions.lvclass"/>
 		<Item Name="Credit Transactions.lvclass" Type="LVClass" URL="../support/classes/Credit Statement/Credit Transactions.lvclass"/>
 		<Item Name="Category.lvclass" Type="LVClass" URL="../support/classes/Category/Category.lvclass"/>
+		<Item Name="CategoryList.lvclass" Type="LVClass" URL="../support/classes/CategoryList/CategoryList.lvclass"/>
 		<Item Name="Expense Summary.lvclass" Type="LVClass" URL="../support/classes/Expense Summary/Expense Summary.lvclass"/>
 		<Item Name="Goal.lvclass" Type="LVClass" URL="../support/classes/Goal/Goal.lvclass"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
