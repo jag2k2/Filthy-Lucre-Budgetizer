@@ -30,8 +30,8 @@
 		<Item Name="Banking Transaction.lvclass" Type="LVClass" URL="../support/classes/Banking Record/Banking Transaction.lvclass"/>
 		<Item Name="Credit Transaction.lvclass" Type="LVClass" URL="../support/classes/Credit Record/Credit Transaction.lvclass"/>
 		<Item Name="TransactionList.lvclass" Type="LVClass" URL="../support/classes/Statement/TransactionList.lvclass"/>
-		<Item Name="Banking Transactions.lvclass" Type="LVClass" URL="../support/classes/Banking Statement/Banking Transactions.lvclass"/>
-		<Item Name="Credit Transactions.lvclass" Type="LVClass" URL="../support/classes/Credit Statement/Credit Transactions.lvclass"/>
+		<Item Name="BankingTransactionList.lvclass" Type="LVClass" URL="../support/classes/Banking Statement/BankingTransactionList.lvclass"/>
+		<Item Name="CreditTransactionList.lvclass" Type="LVClass" URL="../support/classes/Credit Statement/CreditTransactionList.lvclass"/>
 		<Item Name="Category.lvclass" Type="LVClass" URL="../support/classes/Category/Category.lvclass"/>
 		<Item Name="CategoryList.lvclass" Type="LVClass" URL="../support/classes/CategoryList/CategoryList.lvclass"/>
 		<Item Name="Expense Summary.lvclass" Type="LVClass" URL="../support/classes/Expense Summary/Expense Summary.lvclass"/>
