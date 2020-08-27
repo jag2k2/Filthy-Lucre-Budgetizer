@@ -36,6 +36,7 @@
 		<Item Name="CategoryList.lvclass" Type="LVClass" URL="../support/classes/CategoryList/CategoryList.lvclass"/>
 		<Item Name="Expense Summary.lvclass" Type="LVClass" URL="../support/classes/Expense Summary/Expense Summary.lvclass"/>
 		<Item Name="Goal.lvclass" Type="LVClass" URL="../support/classes/Goal/Goal.lvclass"/>
+		<Item Name="WhichMonth.lvclass" Type="LVClass" URL="../support/classes/WhichMonth/WhichMonth.lvclass"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="runtime menu.rtm" Type="Document" URL="../support/runtime menu.rtm"/>
 		<Item Name="Budgetizer.ico" Type="Document" URL="../Budgetizer.ico"/>
@@ -85,6 +86,7 @@
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 			</Item>
+			<Item Name="getCategoryByName.vi" Type="VI" URL="../support/classes/database/getCategoryByName.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Budgetizer" Type="EXE">
