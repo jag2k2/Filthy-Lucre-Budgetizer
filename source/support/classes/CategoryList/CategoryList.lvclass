@@ -44,7 +44,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
-	<Item Name="formatInto2DStringArray.vi" Type="VI" URL="../formatInto2DStringArray.vi">
+	<Item Name="get2DStringArray.vi" Type="VI" URL="../get2DStringArray.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;=!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````]'5X2S;7ZH!!!A1%!!!P``````````!!50-E1A5X2S;7ZH)%&amp;S=G&amp;Z!$*!=!!?!!!7&amp;%.B&gt;'6H&lt;X*Z4'FT&gt;#ZM&gt;G.M98.T!!!11W&amp;U:7&gt;P=HF-;8.U)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2$982F:W^S?5RJ=X1O&lt;(:D&lt;'&amp;T=Q!!$U.B&gt;'6H&lt;X*Z4'FT&gt;#"J&lt;A"B!0!!$!!$!!1!"A!(!!1!"!!%!!1!#!!%!!1!#1-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!+!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
