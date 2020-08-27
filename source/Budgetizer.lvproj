@@ -37,6 +37,7 @@
 		<Item Name="Expense Summary.lvclass" Type="LVClass" URL="../support/classes/Expense Summary/Expense Summary.lvclass"/>
 		<Item Name="Goal.lvclass" Type="LVClass" URL="../support/classes/Goal/Goal.lvclass"/>
 		<Item Name="WhichMonth.lvclass" Type="LVClass" URL="../support/classes/WhichMonth/WhichMonth.lvclass"/>
+		<Item Name="DateUserInterface.lvclass" Type="LVClass" URL="../support/classes/MonthDisplay/DateUserInterface.lvclass"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="runtime menu.rtm" Type="Document" URL="../support/runtime menu.rtm"/>
 		<Item Name="Budgetizer.ico" Type="Document" URL="../Budgetizer.ico"/>
