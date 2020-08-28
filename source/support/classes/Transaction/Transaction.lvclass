@@ -27,6 +27,15 @@
 	<Item Name="Transaction.ctl" Type="Class Private Data" URL="Transaction.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="replaceUniquifier.vi" Type="VI" URL="../replaceUniquifier.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%^!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"*!-0````]*586F=HEA4X6U!#Z!=!!?!!!6%V2S97ZT97.U;7^O,GRW9WRB=X-!$V2S97ZT97.U;7^O)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"*!-0````])586F=HEA37Y!!#Z!=!!?!!!6%V2S97ZT97.U;7^O,GRW9WRB=X-!$F2S97ZT97.U;7^O)'FO!!"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!A!#1)!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!))!!!!E!!!!!!"!!I!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+	</Item>
 	<Item Name="replaceReferenceToken.vi" Type="VI" URL="../replaceReferenceToken.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;+!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"*!-0````]*586F=HEA4X6U!#Z!=!!?!!!6%V2S97ZT97.U;7^O,GRW9WRB=X-!$V2S97ZT97.U;7^O)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"*!-0````])586F=HEA37Y!!#Z!=!!?!!!6%V2S97ZT97.U;7^O,GRW9WRB=X-!$F2S97ZT97.U;7^O)'FO!!"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!A!#1)!!(A!!!U)!!!!!!!!$1I!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!+!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!+!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -81,14 +90,14 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 	</Item>
-	<Item Name="initialize.vi" Type="VI" URL="../initialize.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'4!!!!$A!O1(!!(A!!&amp;2.5=G&amp;O=W&amp;D&gt;'FP&lt;CZM&gt;G.M98.T!!Z5=G&amp;O=W&amp;D&gt;'FP&lt;C"J&lt;A!!%E!Q`````QF3:7:F=G6O9W5!"!!!!#Z!=!!?!!!6%V2S97ZT97.U;7^O,GRW9WRB=X-!$V2S97ZT97.U;7^O)'^V&gt;!!-1&amp;1!"A2%982F!!!.1!I!"E&amp;N&lt;X6O&gt;!!!&amp;%!Q`````QN%:8.D=GFQ&gt;'FP&lt;A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!(!!A!#2.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"*!-0````])1W&amp;U:7&gt;P=HE!!":!5!!$!!=!#!!*#76S=G^S)'^V&gt;!"^!0!!%!!!!!%!!A!#!!-!"!!#!!5!!A!'!!)!#A!,!!)!!A!-!A!"#!!!%A!!!AA!!!!!!!!!!!!!!!U!!!!)!!!!!!!!!!A!!!!!!!!##!!!!!!!!!!)!!!##!!!!!!!!!!!!!!!$1M!%1!!!!!"!!!!!!!!!!!!!!!!!!%!$1!!!!!</Property>
+	<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'4!!!!$A!O1(!!(A!!&amp;2.5=G&amp;O=W&amp;D&gt;'FP&lt;CZM&gt;G.M98.T!!Z5=G&amp;O=W&amp;D&gt;'FP&lt;C"J&lt;A!!%E!Q`````QF3:7:F=G6O9W5!"!!!!#Z!=!!?!!!6%V2S97ZT97.U;7^O,GRW9WRB=X-!$V2S97ZT97.U;7^O)'^V&gt;!!-1&amp;1!"A2%982F!!!.1!I!"E&amp;N&lt;X6O&gt;!!!&amp;%!Q`````QN%:8.D=GFQ&gt;'FP&lt;A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!(!!A!#2.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"*!-0````])1W&amp;U:7&gt;P=HE!!":!5!!$!!=!#!!*#76S=G^S)'^V&gt;!"^!0!!%!!!!!%!!A!#!!-!"!!#!!5!!A!'!!)!#A!,!!)!!A!-!A!"#!!!#A!!!AA!!!!!!!!!!!!!!!U!!!!)!!!!!!!!!!A!!!!!!!!##!!!!!!!!!!)!!!##!!!!!!!!!!!!!!!$1M!%1!!!!!"!!!!!!!!!!!!!!!!!!%!$1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 	</Item>
 	<Item Name="formatIntoTableRow.vi" Type="VI" URL="../formatIntoTableRow.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%6!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"2!-0````],2'6T9X*J=(2J&lt;WY!&amp;E"!!!(`````!!5*6'&amp;C&lt;'5A5G^X!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!,E"Q!"Y!!"546(*B&lt;H.B9X2J&lt;WYO&lt;(:D&lt;'&amp;T=Q!/6(*B&lt;H.B9X2J&lt;WYA;7Y!!&amp;1!]!!-!!-!"!!%!!9!"!!%!!1!"!!(!!1!"!!)!A!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!!1!!!!!!%!#1!!!!!</Property>
