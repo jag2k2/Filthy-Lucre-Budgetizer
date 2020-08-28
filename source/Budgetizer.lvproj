@@ -41,6 +41,9 @@
 		<Item Name="UserEditableAmount.lvclass" Type="LVClass" URL="../support/classes/UserEditableAmount/UserEditableAmount.lvclass"/>
 		<Item Name="DateUserInterface.lvclass" Type="LVClass" URL="../support/classes/MonthDisplay/DateUserInterface.lvclass"/>
 		<Item Name="GoalUserInterface.lvclass" Type="LVClass" URL="../support/classes/GoalUserInterface/GoalUserInterface.lvclass"/>
+		<Item Name="TransactionListUserInterface.lvclass" Type="LVClass" URL="../support/classes/TransactionListUserInterface/TransactionListUserInterface.lvclass"/>
+		<Item Name="BankingListUserInterface.lvclass" Type="LVClass" URL="../support/classes/BankingListUserInterface/BankingListUserInterface.lvclass"/>
+		<Item Name="CreditListUserInterface.lvclass" Type="LVClass" URL="../support/classes/CreditListUserInterface/CreditListUserInterface.lvclass"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="runtime menu.rtm" Type="Document" URL="../support/runtime menu.rtm"/>
 		<Item Name="Budgetizer.ico" Type="Document" URL="../Budgetizer.ico"/>
