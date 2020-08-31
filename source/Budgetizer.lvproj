@@ -34,16 +34,17 @@
 		<Item Name="CreditTransactionList.lvclass" Type="LVClass" URL="../support/classes/Credit Statement/CreditTransactionList.lvclass"/>
 		<Item Name="DateUserInterface.lvclass" Type="LVClass" URL="../support/classes/MonthDisplay/DateUserInterface.lvclass"/>
 		<Item Name="Goal.lvclass" Type="LVClass" URL="../support/classes/Goal/Goal.lvclass"/>
-		<Item Name="GoalUserInterface.lvclass" Type="LVClass" URL="../support/classes/GoalUserInterface/GoalUserInterface.lvclass"/>
 		<Item Name="Outcome.lvclass" Type="LVClass" URL="../support/classes/Expense Summary/Outcome.lvclass"/>
 		<Item Name="OutcomeList.lvclass" Type="LVClass" URL="../support/classes/OutcomeList/OutcomeList.lvclass"/>
 		<Item Name="Transaction.lvclass" Type="LVClass" URL="../support/classes/Transaction/Transaction.lvclass"/>
 		<Item Name="TransactionList.lvclass" Type="LVClass" URL="../support/classes/Statement/TransactionList.lvclass"/>
 		<Item Name="UserEditableAmount.lvclass" Type="LVClass" URL="../support/classes/UserEditableAmount/UserEditableAmount.lvclass"/>
 		<Item Name="WhichMonth.lvclass" Type="LVClass" URL="../support/classes/WhichMonth/WhichMonth.lvclass"/>
-		<Item Name="TransactionListUserInterface.lvclass" Type="LVClass" URL="../support/classes/TransactionListUserInterface/TransactionListUserInterface.lvclass"/>
-		<Item Name="BankingListUserInterface.lvclass" Type="LVClass" URL="../support/classes/BankingListUserInterface/BankingListUserInterface.lvclass"/>
-		<Item Name="CreditListUserInterface.lvclass" Type="LVClass" URL="../support/classes/CreditListUserInterface/CreditListUserInterface.lvclass"/>
+		<Item Name="BankingListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/BankingListUserInterface/BankingListUIAdapter.lvclass"/>
+		<Item Name="CreditListUAdapter.lvclass" Type="LVClass" URL="../support/classes/CreditListUserInterface/CreditListUAdapter.lvclass"/>
+		<Item Name="CategoryListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/CategoryListUIAdapter/CategoryListUIAdapter.lvclass"/>
+		<Item Name="OutcomeListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/GoalUserInterface/OutcomeListUIAdapter.lvclass"/>
+		<Item Name="TransactionListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/TransactionListUserInterface/TransactionListUIAdapter.lvclass"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="runtime menu.rtm" Type="Document" URL="../support/runtime menu.rtm"/>
 		<Item Name="Budgetizer.ico" Type="Document" URL="../Budgetizer.ico"/>
