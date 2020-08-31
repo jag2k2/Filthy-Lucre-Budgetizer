@@ -19,19 +19,35 @@
 		<Item Name="GUIs" Type="Folder" URL="../GUIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Test" Type="Folder" URL="../Test">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="subvis" Type="Folder" URL="../support/subvis">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Account History.lvclass" Type="LVClass" URL="../support/classes/database/Account History.lvclass"/>
-		<Item Name="Transaction.lvclass" Type="LVClass" URL="../support/classes/Transaction/Transaction.lvclass"/>
-		<Item Name="Banking Transaction.lvclass" Type="LVClass" URL="../support/classes/Banking Record/Banking Transaction.lvclass"/>
-		<Item Name="Credit Transaction.lvclass" Type="LVClass" URL="../support/classes/Credit Record/Credit Transaction.lvclass"/>
-		<Item Name="Statement.lvclass" Type="LVClass" URL="../support/classes/Statement/Statement.lvclass"/>
-		<Item Name="Banking Statement.lvclass" Type="LVClass" URL="../support/classes/Banking Statement/Banking Statement.lvclass"/>
-		<Item Name="Credit Statement.lvclass" Type="LVClass" URL="../support/classes/Credit Statement/Credit Statement.lvclass"/>
+		<Item Name="BankingTransaction.lvclass" Type="LVClass" URL="../support/classes/Banking Record/BankingTransaction.lvclass"/>
+		<Item Name="BankingTransactionList.lvclass" Type="LVClass" URL="../support/classes/Banking Statement/BankingTransactionList.lvclass"/>
 		<Item Name="Category.lvclass" Type="LVClass" URL="../support/classes/Category/Category.lvclass"/>
-		<Item Name="Expense Summary.lvclass" Type="LVClass" URL="../support/classes/Expense Summary/Expense Summary.lvclass"/>
+		<Item Name="CategoryList.lvclass" Type="LVClass" URL="../support/classes/CategoryList/CategoryList.lvclass"/>
+		<Item Name="CreditTransaction.lvclass" Type="LVClass" URL="../support/classes/Credit Record/CreditTransaction.lvclass"/>
+		<Item Name="CreditTransactionList.lvclass" Type="LVClass" URL="../support/classes/Credit Statement/CreditTransactionList.lvclass"/>
+		<Item Name="DateUserInterface.lvclass" Type="LVClass" URL="../support/classes/MonthDisplay/DateUserInterface.lvclass"/>
+		<Item Name="Goal.lvclass" Type="LVClass" URL="../support/classes/Goal/Goal.lvclass"/>
+		<Item Name="Outcome.lvclass" Type="LVClass" URL="../support/classes/Expense Summary/Outcome.lvclass"/>
+		<Item Name="OutcomeList.lvclass" Type="LVClass" URL="../support/classes/OutcomeList/OutcomeList.lvclass"/>
+		<Item Name="Transaction.lvclass" Type="LVClass" URL="../support/classes/Transaction/Transaction.lvclass"/>
+		<Item Name="TransactionList.lvclass" Type="LVClass" URL="../support/classes/Statement/TransactionList.lvclass"/>
+		<Item Name="UserEditableAmount.lvclass" Type="LVClass" URL="../support/classes/UserEditableAmount/UserEditableAmount.lvclass"/>
+		<Item Name="WhichMonth.lvclass" Type="LVClass" URL="../support/classes/WhichMonth/WhichMonth.lvclass"/>
+		<Item Name="BankingListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/BankingListUserInterface/BankingListUIAdapter.lvclass"/>
+		<Item Name="CreditListUAdapter.lvclass" Type="LVClass" URL="../support/classes/CreditListUserInterface/CreditListUAdapter.lvclass"/>
+		<Item Name="CategoryListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/CategoryListUIAdapter/CategoryListUIAdapter.lvclass"/>
+		<Item Name="OutcomeListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/GoalUserInterface/OutcomeListUIAdapter.lvclass"/>
+		<Item Name="TransactionListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/TransactionListUserInterface/TransactionListUIAdapter.lvclass"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="runtime menu.rtm" Type="Document" URL="../support/runtime menu.rtm"/>
 		<Item Name="Budgetizer.ico" Type="Document" URL="../Budgetizer.ico"/>
-		<Item Name="Highlight Rows By Category.vi" Type="VI" URL="../support/subvis/Highlight Rows By Category.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -78,13 +94,6 @@
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 			</Item>
-			<Item Name="Compare to the Cent.vi" Type="VI" URL="../support/subvis/Compare to the Cent.vi"/>
-			<Item Name="Local Error Handler.vi" Type="VI" URL="../support/subvis/Local Error Handler.vi"/>
-			<Item Name="Import Transactions from File.vi" Type="VI" URL="../support/subvis/Import Transactions from File.vi"/>
-			<Item Name="Find Table Cell from Coordinate.vi" Type="VI" URL="../support/subvis/Find Table Cell from Coordinate.vi"/>
-			<Item Name="Construct Category Menu.vi" Type="VI" URL="../support/subvis/Construct Category Menu.vi"/>
-			<Item Name="Decrement Date.vi" Type="VI" URL="../support/subvis/Decrement Date.vi"/>
-			<Item Name="CONST_DST.vi" Type="VI" URL="../support/subvis/CONST_DST.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Budgetizer" Type="EXE">
@@ -102,7 +111,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B232AD3E-98B1-4827-9A3D-5B12C4E86468}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Budgetizer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Budgetizer.exe</Property>
