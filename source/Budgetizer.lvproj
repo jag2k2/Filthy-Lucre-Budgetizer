@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="18008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -101,6 +101,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{3B04F14E-51FE-4BAE-98AF-3EF5129842AB}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{EAB94193-2DD0-4F4F-A0AB-BC5AF291C7F0}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{74C0B0DD-426E-4ED0-B148-CB38B68C0669}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Budgetizer</Property>
