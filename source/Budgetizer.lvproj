@@ -25,6 +25,9 @@
 		<Item Name="subvis" Type="Folder" URL="../support/subvis">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="GridRepresentable.lvclass" Type="LVClass" URL="../support/classes/GridDisplayable/GridRepresentable.lvclass"/>
+		<Item Name="RowRepresentable.lvclass" Type="LVClass" URL="../support/classes/RowDisplayable/RowRepresentable.lvclass"/>
+		<Item Name="GridInputOutput.lvclass" Type="LVClass" URL="../support/classes/GridInputOutput/GridInputOutput.lvclass"/>
 		<Item Name="Account History.lvclass" Type="LVClass" URL="../support/classes/database/Account History.lvclass"/>
 		<Item Name="BankingTransaction.lvclass" Type="LVClass" URL="../support/classes/Banking Record/BankingTransaction.lvclass"/>
 		<Item Name="BankingTransactionList.lvclass" Type="LVClass" URL="../support/classes/Banking Statement/BankingTransactionList.lvclass"/>
