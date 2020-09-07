@@ -25,6 +25,10 @@
 		<Item Name="subvis" Type="Folder" URL="../support/subvis">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="GridRepresentable.lvclass" Type="LVClass" URL="../support/classes/GridDisplayable/GridRepresentable.lvclass"/>
+		<Item Name="RowRepresentable.lvclass" Type="LVClass" URL="../support/classes/RowDisplayable/RowRepresentable.lvclass"/>
+		<Item Name="GridInputOutput.lvclass" Type="LVClass" URL="../support/classes/GridInputOutput/GridInputOutput.lvclass"/>
+		<Item Name="AbstractMultiColumnListBoxAdapter.lvclass" Type="LVClass" URL="../support/classes/AbstractMultiColumnListBoxAdapter/AbstractMultiColumnListBoxAdapter.lvclass"/>
 		<Item Name="Account History.lvclass" Type="LVClass" URL="../support/classes/database/Account History.lvclass"/>
 		<Item Name="BankingTransaction.lvclass" Type="LVClass" URL="../support/classes/Banking Record/BankingTransaction.lvclass"/>
 		<Item Name="BankingTransactionList.lvclass" Type="LVClass" URL="../support/classes/Banking Statement/BankingTransactionList.lvclass"/>
@@ -32,18 +36,15 @@
 		<Item Name="CategoryList.lvclass" Type="LVClass" URL="../support/classes/CategoryList/CategoryList.lvclass"/>
 		<Item Name="CreditTransaction.lvclass" Type="LVClass" URL="../support/classes/Credit Record/CreditTransaction.lvclass"/>
 		<Item Name="CreditTransactionList.lvclass" Type="LVClass" URL="../support/classes/Credit Statement/CreditTransactionList.lvclass"/>
-		<Item Name="DateUserInterface.lvclass" Type="LVClass" URL="../support/classes/MonthDisplay/DateUserInterface.lvclass"/>
 		<Item Name="Goal.lvclass" Type="LVClass" URL="../support/classes/Goal/Goal.lvclass"/>
-		<Item Name="Outcome.lvclass" Type="LVClass" URL="../support/classes/Expense Summary/Outcome.lvclass"/>
-		<Item Name="OutcomeList.lvclass" Type="LVClass" URL="../support/classes/OutcomeList/OutcomeList.lvclass"/>
+		<Item Name="GoalList.lvclass" Type="LVClass" URL="../support/classes/OutcomeList/GoalList.lvclass"/>
 		<Item Name="Transaction.lvclass" Type="LVClass" URL="../support/classes/Transaction/Transaction.lvclass"/>
 		<Item Name="TransactionList.lvclass" Type="LVClass" URL="../support/classes/Statement/TransactionList.lvclass"/>
 		<Item Name="UserEditableAmount.lvclass" Type="LVClass" URL="../support/classes/UserEditableAmount/UserEditableAmount.lvclass"/>
 		<Item Name="WhichMonth.lvclass" Type="LVClass" URL="../support/classes/WhichMonth/WhichMonth.lvclass"/>
-		<Item Name="BankingListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/BankingListUserInterface/BankingListUIAdapter.lvclass"/>
-		<Item Name="CreditListUAdapter.lvclass" Type="LVClass" URL="../support/classes/CreditListUserInterface/CreditListUAdapter.lvclass"/>
+		<Item Name="DateUserInterface.lvclass" Type="LVClass" URL="../support/classes/MonthDisplay/DateUserInterface.lvclass"/>
 		<Item Name="CategoryListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/CategoryListUIAdapter/CategoryListUIAdapter.lvclass"/>
-		<Item Name="OutcomeListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/GoalUserInterface/OutcomeListUIAdapter.lvclass"/>
+		<Item Name="GoalListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/GoalUserInterface/GoalListUIAdapter.lvclass"/>
 		<Item Name="TransactionListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/TransactionListUserInterface/TransactionListUIAdapter.lvclass"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="runtime menu.rtm" Type="Document" URL="../support/runtime menu.rtm"/>
