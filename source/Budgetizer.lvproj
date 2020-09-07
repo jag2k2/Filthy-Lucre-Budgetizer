@@ -32,7 +32,6 @@
 		<Item Name="CategoryList.lvclass" Type="LVClass" URL="../support/classes/CategoryList/CategoryList.lvclass"/>
 		<Item Name="CreditTransaction.lvclass" Type="LVClass" URL="../support/classes/Credit Record/CreditTransaction.lvclass"/>
 		<Item Name="CreditTransactionList.lvclass" Type="LVClass" URL="../support/classes/Credit Statement/CreditTransactionList.lvclass"/>
-		<Item Name="DateUserInterface.lvclass" Type="LVClass" URL="../support/classes/MonthDisplay/DateUserInterface.lvclass"/>
 		<Item Name="Goal.lvclass" Type="LVClass" URL="../support/classes/Goal/Goal.lvclass"/>
 		<Item Name="Outcome.lvclass" Type="LVClass" URL="../support/classes/Expense Summary/Outcome.lvclass"/>
 		<Item Name="OutcomeList.lvclass" Type="LVClass" URL="../support/classes/OutcomeList/OutcomeList.lvclass"/>
@@ -40,6 +39,7 @@
 		<Item Name="TransactionList.lvclass" Type="LVClass" URL="../support/classes/Statement/TransactionList.lvclass"/>
 		<Item Name="UserEditableAmount.lvclass" Type="LVClass" URL="../support/classes/UserEditableAmount/UserEditableAmount.lvclass"/>
 		<Item Name="WhichMonth.lvclass" Type="LVClass" URL="../support/classes/WhichMonth/WhichMonth.lvclass"/>
+		<Item Name="DateUserInterface.lvclass" Type="LVClass" URL="../support/classes/MonthDisplay/DateUserInterface.lvclass"/>
 		<Item Name="BankingListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/BankingListUserInterface/BankingListUIAdapter.lvclass"/>
 		<Item Name="CreditListUAdapter.lvclass" Type="LVClass" URL="../support/classes/CreditListUserInterface/CreditListUAdapter.lvclass"/>
 		<Item Name="CategoryListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/CategoryListUIAdapter/CategoryListUIAdapter.lvclass"/>
