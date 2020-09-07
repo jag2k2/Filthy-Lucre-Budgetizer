@@ -28,6 +28,7 @@
 		<Item Name="GridRepresentable.lvclass" Type="LVClass" URL="../support/classes/GridDisplayable/GridRepresentable.lvclass"/>
 		<Item Name="RowRepresentable.lvclass" Type="LVClass" URL="../support/classes/RowDisplayable/RowRepresentable.lvclass"/>
 		<Item Name="GridInputOutput.lvclass" Type="LVClass" URL="../support/classes/GridInputOutput/GridInputOutput.lvclass"/>
+		<Item Name="AbstractMultiColumnListBoxAdapter.lvclass" Type="LVClass" URL="../support/classes/AbstractMultiColumnListBoxAdapter/AbstractMultiColumnListBoxAdapter.lvclass"/>
 		<Item Name="Account History.lvclass" Type="LVClass" URL="../support/classes/database/Account History.lvclass"/>
 		<Item Name="BankingTransaction.lvclass" Type="LVClass" URL="../support/classes/Banking Record/BankingTransaction.lvclass"/>
 		<Item Name="BankingTransactionList.lvclass" Type="LVClass" URL="../support/classes/Banking Statement/BankingTransactionList.lvclass"/>
@@ -43,8 +44,6 @@
 		<Item Name="UserEditableAmount.lvclass" Type="LVClass" URL="../support/classes/UserEditableAmount/UserEditableAmount.lvclass"/>
 		<Item Name="WhichMonth.lvclass" Type="LVClass" URL="../support/classes/WhichMonth/WhichMonth.lvclass"/>
 		<Item Name="DateUserInterface.lvclass" Type="LVClass" URL="../support/classes/MonthDisplay/DateUserInterface.lvclass"/>
-		<Item Name="BankingListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/BankingListUserInterface/BankingListUIAdapter.lvclass"/>
-		<Item Name="CreditListUAdapter.lvclass" Type="LVClass" URL="../support/classes/CreditListUserInterface/CreditListUAdapter.lvclass"/>
 		<Item Name="CategoryListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/CategoryListUIAdapter/CategoryListUIAdapter.lvclass"/>
 		<Item Name="OutcomeListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/GoalUserInterface/OutcomeListUIAdapter.lvclass"/>
 		<Item Name="TransactionListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/TransactionListUserInterface/TransactionListUIAdapter.lvclass"/>
