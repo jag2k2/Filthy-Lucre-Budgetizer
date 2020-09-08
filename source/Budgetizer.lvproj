@@ -43,9 +43,8 @@
 		<Item Name="UserEditableAmount.lvclass" Type="LVClass" URL="../support/classes/UserEditableAmount/UserEditableAmount.lvclass"/>
 		<Item Name="WhichMonth.lvclass" Type="LVClass" URL="../support/classes/WhichMonth/WhichMonth.lvclass"/>
 		<Item Name="DateUserInterface.lvclass" Type="LVClass" URL="../support/classes/MonthDisplay/DateUserInterface.lvclass"/>
-		<Item Name="CategoryListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/CategoryListUIAdapter/CategoryListUIAdapter.lvclass"/>
-		<Item Name="GoalListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/GoalUserInterface/GoalListUIAdapter.lvclass"/>
-		<Item Name="TransactionListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/TransactionListUserInterface/TransactionListUIAdapter.lvclass"/>
+		<Item Name="SingleSelectMCLBAdapter.lvclass" Type="LVClass" URL="../support/classes/GoalUserInterface/SingleSelectMCLBAdapter.lvclass"/>
+		<Item Name="MultiSelectMCLBAdapter.lvclass" Type="LVClass" URL="../support/classes/TransactionListUserInterface/MultiSelectMCLBAdapter.lvclass"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="runtime menu.rtm" Type="Document" URL="../support/runtime menu.rtm"/>
 		<Item Name="Budgetizer.ico" Type="Document" URL="../Budgetizer.ico"/>
