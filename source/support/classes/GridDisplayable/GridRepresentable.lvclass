@@ -6,8 +6,8 @@
 	<Property Name="NI.LVClass.ClassNameVisibleInProbe" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.IsInterface" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
-	<Item Name="getGridElements.vi" Type="VI" URL="../getGridElements.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;8!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````]'5X2S;7ZH!!!;1%!!!P``````````!!5*2X*J:#"3&lt;X&gt;T!$B!=!!?!!!&lt;'5&gt;S;723:8"S:8.F&lt;H2B9GRF,GRW9WRB=X-!%U&gt;S;72%;8.Q&lt;'&amp;Z97*M:3"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Y1(!!(A!!'RF(=GFE5G6Q=G6T:7ZU97*M:3ZM&gt;G.M98.T!"*(=GFE2'FT='RB?7&amp;C&lt;'5A;7Y!!&amp;1!]!!-!!-!"!!'!!=!"!!%!!1!"!!)!!1!"!!*!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#A!!!!!</Property>
+	<Item Name="getDisabledRows.vi" Type="VI" URL="../getDisabledRows.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;9!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!V!!Q!(4H6N:8*J9Q!?1%!!!@````]!"2");7&gt;I&lt;'FH;(2F:#"3&lt;X&gt;T!!!Y1(!!(A!!'RF(=GFE5G6Q=G6T:7ZU97*M:3ZM&gt;G.M98.T!".(=GFE2'FT='RB?7&amp;C&lt;'5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/%"Q!"Y!!"M:2X*J:&amp;*F=(*F=W6O&gt;'&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=Q!32X*J:%2J=X"M98FB9GRF)'FO!!"5!0!!$!!$!!1!"A!(!!1!"!!%!!1!#!!%!!1!#1)!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!I!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
@@ -15,8 +15,8 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
-	<Item Name="getHighlightedRows.vi" Type="VI" URL="../getHighlightedRows.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;9!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!V!!Q!(4H6N:8*J9Q!?1%!!!@````]!"2");7&gt;I&lt;'FH;(2F:#"3&lt;X&gt;T!!!Y1(!!(A!!'RF(=GFE5G6Q=G6T:7ZU97*M:3ZM&gt;G.M98.T!".(=GFE2'FT='RB?7&amp;C&lt;'5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/%"Q!"Y!!"M:2X*J:&amp;*F=(*F=W6O&gt;'&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=Q!32X*J:%2J=X"M98FB9GRF)'FO!!"5!0!!$!!$!!1!"A!(!!1!"!!%!!1!#!!%!!1!#1)!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!I!!!!!</Property>
+	<Item Name="getGridElements.vi" Type="VI" URL="../getGridElements.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;8!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````]'5X2S;7ZH!!!;1%!!!P``````````!!5*2X*J:#"3&lt;X&gt;T!$B!=!!?!!!&lt;'5&gt;S;723:8"S:8.F&lt;H2B9GRF,GRW9WRB=X-!%U&gt;S;72%;8.Q&lt;'&amp;Z97*M:3"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Y1(!!(A!!'RF(=GFE5G6Q=G6T:7ZU97*M:3ZM&gt;G.M98.T!"*(=GFE2'FT='RB?7&amp;C&lt;'5A;7Y!!&amp;1!]!!-!!-!"!!'!!=!"!!%!!1!"!!)!!1!"!!*!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
