@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="18008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -25,6 +25,10 @@
 		<Item Name="subvis" Type="Folder" URL="../support/subvis">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="GridRepresentable.lvclass" Type="LVClass" URL="../support/classes/GridDisplayable/GridRepresentable.lvclass"/>
+		<Item Name="RowRepresentable.lvclass" Type="LVClass" URL="../support/classes/RowDisplayable/RowRepresentable.lvclass"/>
+		<Item Name="GridInputOutput.lvclass" Type="LVClass" URL="../support/classes/GridInputOutput/GridInputOutput.lvclass"/>
+		<Item Name="AbstractMultiColumnListBoxAdapter.lvclass" Type="LVClass" URL="../support/classes/AbstractMultiColumnListBoxAdapter/AbstractMultiColumnListBoxAdapter.lvclass"/>
 		<Item Name="Account History.lvclass" Type="LVClass" URL="../support/classes/database/Account History.lvclass"/>
 		<Item Name="BankingTransaction.lvclass" Type="LVClass" URL="../support/classes/Banking Record/BankingTransaction.lvclass"/>
 		<Item Name="BankingTransactionList.lvclass" Type="LVClass" URL="../support/classes/Banking Statement/BankingTransactionList.lvclass"/>
@@ -32,19 +36,15 @@
 		<Item Name="CategoryList.lvclass" Type="LVClass" URL="../support/classes/CategoryList/CategoryList.lvclass"/>
 		<Item Name="CreditTransaction.lvclass" Type="LVClass" URL="../support/classes/Credit Record/CreditTransaction.lvclass"/>
 		<Item Name="CreditTransactionList.lvclass" Type="LVClass" URL="../support/classes/Credit Statement/CreditTransactionList.lvclass"/>
-		<Item Name="DateUserInterface.lvclass" Type="LVClass" URL="../support/classes/MonthDisplay/DateUserInterface.lvclass"/>
 		<Item Name="Goal.lvclass" Type="LVClass" URL="../support/classes/Goal/Goal.lvclass"/>
-		<Item Name="Outcome.lvclass" Type="LVClass" URL="../support/classes/Expense Summary/Outcome.lvclass"/>
-		<Item Name="OutcomeList.lvclass" Type="LVClass" URL="../support/classes/OutcomeList/OutcomeList.lvclass"/>
+		<Item Name="GoalList.lvclass" Type="LVClass" URL="../support/classes/OutcomeList/GoalList.lvclass"/>
 		<Item Name="Transaction.lvclass" Type="LVClass" URL="../support/classes/Transaction/Transaction.lvclass"/>
 		<Item Name="TransactionList.lvclass" Type="LVClass" URL="../support/classes/Statement/TransactionList.lvclass"/>
 		<Item Name="UserEditableAmount.lvclass" Type="LVClass" URL="../support/classes/UserEditableAmount/UserEditableAmount.lvclass"/>
 		<Item Name="WhichMonth.lvclass" Type="LVClass" URL="../support/classes/WhichMonth/WhichMonth.lvclass"/>
-		<Item Name="BankingListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/BankingListUserInterface/BankingListUIAdapter.lvclass"/>
-		<Item Name="CreditListUAdapter.lvclass" Type="LVClass" URL="../support/classes/CreditListUserInterface/CreditListUAdapter.lvclass"/>
-		<Item Name="CategoryListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/CategoryListUIAdapter/CategoryListUIAdapter.lvclass"/>
-		<Item Name="OutcomeListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/GoalUserInterface/OutcomeListUIAdapter.lvclass"/>
-		<Item Name="TransactionListUIAdapter.lvclass" Type="LVClass" URL="../support/classes/TransactionListUserInterface/TransactionListUIAdapter.lvclass"/>
+		<Item Name="DateUserInterface.lvclass" Type="LVClass" URL="../support/classes/MonthDisplay/DateUserInterface.lvclass"/>
+		<Item Name="SingleSelectMCLBAdapter.lvclass" Type="LVClass" URL="../support/classes/GoalUserInterface/SingleSelectMCLBAdapter.lvclass"/>
+		<Item Name="MultiSelectMCLBAdapter.lvclass" Type="LVClass" URL="../support/classes/TransactionListUserInterface/MultiSelectMCLBAdapter.lvclass"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="runtime menu.rtm" Type="Document" URL="../support/runtime menu.rtm"/>
 		<Item Name="Budgetizer.ico" Type="Document" URL="../Budgetizer.ico"/>
@@ -101,6 +101,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{3B04F14E-51FE-4BAE-98AF-3EF5129842AB}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{EAB94193-2DD0-4F4F-A0AB-BC5AF291C7F0}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{74C0B0DD-426E-4ED0-B148-CB38B68C0669}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Budgetizer</Property>
@@ -111,7 +112,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B232AD3E-98B1-4827-9A3D-5B12C4E86468}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Budgetizer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Budgetizer.exe</Property>
